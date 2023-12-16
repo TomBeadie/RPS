@@ -2,7 +2,7 @@
 
 ---
 
-[Play]()
+[Play](https://tombeadie-rps.netlify.app/)
 
 High-intensity skill game.
 
