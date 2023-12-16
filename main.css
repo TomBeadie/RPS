@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "baunk";
+  src: url("");
+}
+
 body {
   background-color: #ffeecf;
   display: flex;
