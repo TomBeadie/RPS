@@ -10,6 +10,8 @@ let playerChoice, computerChoice, msg
 
 const resultDisplayEl = document.getElementById('result-display')
 
+/*-------- Event Listeners --------*/
+
 document.getElementById('rock').addEventListener('click', play)
 document.getElementById('paper').addEventListener('click', play)
 document.getElementById('scissors').addEventListener('click', play)
@@ -19,3 +21,11 @@ function play(){
 console.log('clicked')
 
 }
+
+/*-------- Functions --------*/
+
+
+render()
+compare()
+getComputerChoice()
+getPlayerChoice()
