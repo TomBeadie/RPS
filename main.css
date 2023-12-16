@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "baunk";
-  src: url("");
+  font-family: Baunk;
+  src: url("fonts/Baunk.otf");
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  /* font:; */
+  font-family: Baunk;
   font-size: 2vw;
   line-height: normal;
 }
