@@ -10,17 +10,18 @@ High-intensity skill game.
 
 ---
 
-[Figma]()
+[Figma](https://www.figma.com/file/u0oyvbgAlEYkPcqOI4Ifzv/RPS?type=design&node-id=0%3A1&mode=design&t=5Kjx1JUTBR8GPNME-1)
 
 # Screenshots
 
 ---
 
-<!-- ![Favicon](images/RPSfavicon.png)
+![Favicon](./images/favicon.png)
 
-![Gameboard](images/RPS-UI.png)
+![Gameboard](./images/rps-ui.png)
 
-![Darkmode](images/darkmode-ui.png) -->
+![Pallette](./images/palete.png)
+
 
 # Technology Used
 
