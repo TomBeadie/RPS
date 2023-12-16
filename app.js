@@ -3,7 +3,7 @@ const choices = ["rock", "paper", "scissors"];
 
 /*-------- Variables (State) --------*/
 
-let playerChoice, computerChoice, msg;
+let playerChoice, computerChoice, msg, msgBoard;
 
 /*-------- Cached Element References --------*/
 
@@ -36,14 +36,19 @@ function getPlayerChoice(event) {
 function compare() {
   if (playerChoice === computerChoice) {
     msg = "Tie";
+    document.getElementById("msg-board").style.backgroundColor = "#ffeecf";
   } else if (playerChoice === choices[0] && computerChoice === choices[2]) {
     msg = "You win";
+    document.getElementById("msg-board").style.backgroundColor = "#AAED3E";
   } else if (playerChoice === choices[1] && computerChoice === choices[0]) {
     msg = "You win";
+    document.getElementById("msg-board").style.backgroundColor = "#AAED3E";
   } else if (playerChoice === choices[2] && computerChoice === choices[1]) {
     msg = "You win";
+    document.getElementById("msg-board").style.backgroundColor = "#AAED3E";
   } else {
     msg = "You lose";
+    document.getElementById("msg-board").style.backgroundColor = "#ED493E";
   }
 }
 
