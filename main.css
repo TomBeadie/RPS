@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: #ffeecf;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,6 +10,7 @@ body {
 p {
   /* font:; */
   font-size: 2vw;
+  line-height: normal;
 }
 
 button {
@@ -19,25 +20,33 @@ button {
   border-style: solid;
   border-color: #171717;
   border-radius: 40px;
-  border-width: 1px;
-  padding: 2rem;
+  border-width: 2px;
+  padding: 40px;
   display: flex;
+  gap: 10px;
+  box-shadow: 10px 10px #171717;
 }
 
 #rock {
-  background-color: bisque;
+  background-color: #ed3ee6;
+}
+#paper {
+  background-color: #ed783e;
+}
+#scissors {
+  background-color: #3eedd8;
 }
 
 .message-board {
   height: 10vh;
   width: 100vw;
-  background-color: #AAED3E;
+  background-color: #aaed3e;
   padding: 1rem;
   border: 1px 0px;
 }
 
 .inner-wrapper {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
 }
