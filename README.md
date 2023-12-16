@@ -16,7 +16,7 @@ High-intensity skill game.
 
 ---
 
-![Favicon](./images/favicon.png)
+![Favicon](./images/favicon.ico)
 
 ![Gameboard](./images/rps-ui.png)
 
