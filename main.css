@@ -10,26 +10,28 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
+
 }
 
 h1 {
-    font-family: Baunk;
-    font-size: 1.5vw;
-    line-height: normal;
-    letter-spacing: .2rem;
+  font-family: Baunk;
+  font-size: 1.5vw;
+  line-height: normal;
+  letter-spacing: 0.2rem;
 }
 
 p {
   font-family: Baunk;
   font-size: 2vw;
   line-height: normal;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 button {
   aspect-ratio: 1 / 1;
   width: 100%;
   max-height: 100%;
+  position: relative;
   border-style: solid;
   border-color: #171717;
   border-radius: 2rem;
@@ -56,8 +58,13 @@ button:hover {
   background-color: #3eedd8;
 }
 
+.scissors-img {
+    position: absolute;
+    bottom: 0;
+}
+
 .message-board {
-  height: 10vh;
+  height: 10%;
   width: 100vw;
   background-color: #aaed3e;
   color: #171717;
@@ -70,8 +77,10 @@ button:hover {
 }
 
 .inner-wrapper {
+  height: 60%;
   display: flex;
   justify-content: space-around;
+  margin: 2rem;
   padding: 2rem;
   gap: 40px;
 }
