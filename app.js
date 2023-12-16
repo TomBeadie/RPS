@@ -1,31 +1,44 @@
-
 /*-------- Constants --------*/
-const choices = ['rock', 'paper', 'scissors'];
+const choices = ["rock", "paper", "scissors"];
 
 /*-------- Variables (State) --------*/
 
-let playerChoice, computerChoice, msg
+let playerChoice, computerChoice, msg;
 
 /*-------- Cached Element References --------*/
 
-const resultDisplayEl = document.getElementById('result-display')
+const resultDisplayEl = document.getElementById("result-display");
 
 /*-------- Event Listeners --------*/
 
-document.getElementById('rock').addEventListener('click', play)
-document.getElementById('paper').addEventListener('click', play)
-document.getElementById('scissors').addEventListener('click', play)
-
-function play(){
-
-console.log('clicked')
-
-}
+document.getElementById("rock").addEventListener("click", play);
+document.getElementById("paper").addEventListener("click", play);
+document.getElementById("scissors").addEventListener("click", play);
 
 /*-------- Functions --------*/
 
+function play() {
+  console.log("clicked");
+  getComputerChoice();
+  getPlayerChoice();
+  compare();
+  render();
+}
 
-render()
-compare()
-getComputerChoice()
-getPlayerChoice()
+
+function getComputerChoice(){
+   const randomIndex = Math.floor(Math.random() * choices.length)
+   console.log(randomIndex)
+}
+
+function getPlayerChoice(){
+
+}
+
+function compare(){
+
+}
+
+function render(){
+    
+}
