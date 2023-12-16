@@ -35,7 +35,7 @@ function getPlayerChoice(event) {
 
 function compare() {
   if (playerChoice === computerChoice) {
-    msg = "Tie.";
+    msg = "Tie";
   } else if (playerChoice === choices[0] && computerChoice === choices[2]) {
     msg = "You win";
   } else if (playerChoice === choices[1] && computerChoice === choices[0]) {
@@ -48,5 +48,5 @@ function compare() {
 }
 
 function render() {
-  resultDisplayEl.textContent = `You chose ${playerChoice} and the computer chose ${computerChoice}. ${msg}`;
+  resultDisplayEl.textContent = `You chose ${playerChoice} and the computer chose ${computerChoice}. ${msg}.`;
 }
