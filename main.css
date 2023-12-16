@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: Baunk;
   src: url("fonts/Baunk.otf");
-}
+} */
 
 body {
   background-color: #ffeecf;
@@ -13,13 +13,12 @@ body {
 }
 
 p {
-  font-family: Baunk;
+  /* font-family: Baunk; */
   font-size: 2vw;
   line-height: normal;
 }
 
 button {
-  background-color: blue;
   height: 400px;
   width: 400px;
   border-style: solid;
@@ -28,7 +27,12 @@ button {
   border-width: 2px;
   padding: 40px;
   display: flex;
-  box-shadow: 10px 10px #171717;
+  box-shadow: 20px 20px 0 0 #171717;
+}
+
+button:hover {
+  transform: translate3d(4px);
+  box-shadow: 0 0px #171717;
 }
 
 #rock {
@@ -45,8 +49,10 @@ button {
   height: 10vh;
   width: 100vw;
   background-color: #aaed3e;
+  color: #171717;
   padding: 1rem;
-  border: 1px 0px;
+  border-style: solid;
+  border-color: #171717;
 }
 
 .inner-wrapper {

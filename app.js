@@ -18,8 +18,6 @@ document.getElementById("scissors").addEventListener("click", play);
 /*-------- Functions --------*/
 
 function play(event) {
-  console.log("clicked");
-
   getPlayerChoice(event);
   getComputerChoice();
   compare();
@@ -28,10 +26,12 @@ function play(event) {
 
 function getComputerChoice() {
   const randomIndex = Math.floor(Math.random() * choices.length);
-  console.log(randomIndex);
+  computerChoice = choices[randomIndex];
 }
 
-function getPlayerChoice() {}
+function getPlayerChoice(event) {
+  playerChoice = event.target.id;
+}
 
 function compare() {
   if (playerChoice === computerChoice) {
@@ -47,4 +47,6 @@ function compare() {
   }
 }
 
-function render() {}
+function render() {
+  resultDisplayEl.textContent = `You chose ${playerChoice} and the computer chose ${computerChoice}. ${msg}`;
+}
