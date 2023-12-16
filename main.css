@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
   font-family: Baunk;
   src: url("fonts/Baunk.otf");
-} */
+}
 
 body {
   background-color: #ffeecf;
@@ -13,8 +13,8 @@ body {
 }
 
 p {
-  /* font-family: Baunk; */
-  font-size: 2vw;
+  font-family: Baunk;
+  font-size: 1.5vw;
   line-height: normal;
 }
 
@@ -23,15 +23,17 @@ button {
   width: 400px;
   border-style: solid;
   border-color: #171717;
-  border-radius: 40px;
+  border-radius: 2rem;
   border-width: 2px;
-  padding: 40px;
+  padding: 2rem;
   display: flex;
-  box-shadow: 20px 20px 0 0 #171717;
+  box-shadow: 40px 40px 0 0 #171717;
+  transition-duration: 240ms;
+  transition-timing-function: ease-in;
 }
 
 button:hover {
-  transform: translate3d(4px);
+  transform: translateZ(4px);
   box-shadow: 0 0px #171717;
 }
 
