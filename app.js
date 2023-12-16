@@ -1,1 +1,3 @@
-console.log('sanity check')
+
+
+const choices = ['rock', 'paper', 'scissors'];
