@@ -17,28 +17,34 @@ document.getElementById("scissors").addEventListener("click", play);
 
 /*-------- Functions --------*/
 
-function play() {
+function play(event) {
   console.log("clicked");
+
+  getPlayerChoice(event);
   getComputerChoice();
-  getPlayerChoice();
   compare();
   render();
 }
 
-
-function getComputerChoice(){
-   const randomIndex = Math.floor(Math.random() * choices.length)
-   console.log(randomIndex)
+function getComputerChoice() {
+  const randomIndex = Math.floor(Math.random() * choices.length);
+  console.log(randomIndex);
 }
 
-function getPlayerChoice(){
+function getPlayerChoice() {}
 
+function compare() {
+  if (playerChoice === computerChoice) {
+    msg = "Tie.";
+  } else if (playerChoice === choices[0] && computerChoice === choices[2]) {
+    msg = "You win";
+  } else if (playerChoice === choices[1] && computerChoice === choices[0]) {
+    msg = "You win";
+  } else if (playerChoice === choices[2] && computerChoice === choices[1]) {
+    msg = "You win";
+  } else {
+    msg = "You lose";
+  }
 }
 
-function compare(){
-
-}
-
-function render(){
-    
-}
+function render() {}
