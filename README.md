@@ -33,7 +33,7 @@ High-intensity skill game.
 
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 
-![Markdown](![Markdown](https://a11ybadges.com/badge?logo=markdown))
+![Markdown](https://a11ybadges.com/badge?logo=markdown)
 
 ![Figma](https://a11ybadges.com/badge?logo=figma)
 
@@ -43,4 +43,4 @@ High-intensity skill game.
 
 ![GitHub](https://a11ybadges.com/badge?logo=github)
 
-![Git](![Git](https://a11ybadges.com/badge?logo=git))
+![Git](https://a11ybadges.com/badge?logo=git)
