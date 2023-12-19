@@ -33,8 +33,6 @@ High-intensity skill game.
 
 ![CSS3](https://a11ybadges.com/badge?logo=css3)
 
-![Sass](https://a11ybadges.com/badge?logo=sass)
-
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 
 ![Figma](https://a11ybadges.com/badge?logo=figma)
