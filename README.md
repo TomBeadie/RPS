@@ -27,16 +27,20 @@ High-intensity skill game.
 
 ---
 
-![GitHub](https://a11ybadges.com/badge?logo=github)
-
 ![HTML5](https://a11ybadges.com/badge?logo=html5)
 
 ![CSS3](https://a11ybadges.com/badge?logo=css3)
 
 ![JavaScript](https://a11ybadges.com/badge?logo=javascript)
 
+![Markdown](![Markdown](https://a11ybadges.com/badge?logo=markdown))
+
 ![Figma](https://a11ybadges.com/badge?logo=figma)
 
 ![Adobe Illustrator](https://a11ybadges.com/badge?logo=adobeillustrator)
 
 ![Netlify](https://a11ybadges.com/badge?logo=netlify)
+
+![GitHub](https://a11ybadges.com/badge?logo=github)
+
+![Git](![Git](https://a11ybadges.com/badge?logo=git))
