@@ -13,17 +13,11 @@ body {
   margin: 0;
 }
 
-h1 {
+h1, p {
   font-size: 1.5vw;
   line-height: normal;
   letter-spacing: 0.2rem;
-}
-
-p {
   font-family: Baunk;
-  font-size: 1.5vw;
-  line-height: normal;
-  letter-spacing: 0.2rem;
 }
 
 button {
@@ -68,7 +62,7 @@ button:hover {
   background-color: #CFCCC6;
   color: #171717;
   padding: 2vw;
-  word-break: break-all;
+  word-wrap: normal;
   border-style: solid;
   border-color: #171717;
   display: flex;
