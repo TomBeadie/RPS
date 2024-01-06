@@ -53,5 +53,5 @@ function compare() {
 }
 
 function render() {
-  resultDisplayEl.textContent = `You chose ${playerChoice} and the computer chose ${computerChoice}. ${msg}.`;
+  resultDisplayEl.textContent = `You chose ${playerChoice}, computer chose ${computerChoice}. ${msg}.`;
 }

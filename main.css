@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: Baunk;
   background-color: #ffeecf;
   display: flex;
   flex-direction: column;
@@ -13,7 +14,6 @@ body {
 }
 
 h1 {
-  font-family: Baunk;
   font-size: 1.5vw;
   line-height: normal;
   letter-spacing: 0.2rem;
@@ -21,7 +21,7 @@ h1 {
 
 p {
   font-family: Baunk;
-  font-size: 2vw;
+  font-size: 1.5vw;
   line-height: normal;
   letter-spacing: 0.2rem;
 }
@@ -35,7 +35,7 @@ button {
   border-color: #171717;
   border-radius: 2rem;
   border-width: 2px;
-  padding: 2rem;
+  padding: 2vw;
   display: flex;
   box-shadow: 4px 4px #171717;
   transition-duration: 240ms;
@@ -67,7 +67,7 @@ button:hover {
   width: 100vw;
   background-color: #CFCCC6;
   color: #171717;
-  padding: 1rem;
+  padding: 2vw;
   word-break: break-all;
   border-style: solid;
   border-color: #171717;
